@@ -1,2 +1,1 @@
-Algorithm
-Python
+# Algorithm
