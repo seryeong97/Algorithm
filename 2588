@@ -1,0 +1,18 @@
+num1 = int(input())
+num2 = int(input())
+
+one_digit = num2 % 10
+first_line = one_digit * num1
+
+ten_digit = int((num2 - one_digit) % 100 / 10)
+second_line = ten_digit * num1
+
+hundred_digit = num2 // 100
+third_line = hundred_digit * num1
+
+sum = first_line + second_line * 10 + third_line * 100
+
+print(first_line)
+print(second_line)
+print(third_line)
+print(sum)
